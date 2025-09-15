@@ -3,7 +3,7 @@ describe("Cypress GitHub Actions Demo", { tags: "@smoke" }, () => {
     cy.visit("https://tredgate.com/pmtool");
   });
 
-  it("Open PMtool and fill username", () => {
+  it("Open PMtool and fill username", { tags: "@e2e" }, () => {
     cy.get("#username").type("admin");
     cy.get("#username").should("have.value", "admin");
   });
