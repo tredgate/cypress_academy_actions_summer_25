@@ -1,8 +1,7 @@
-name: Cypress - Every 15 minutes (CRON)
+name: Cypress Tests Filtering - Tags
 
 on:
-  schedule:
-    - cron: "*/15 17-21 * * *"
+  workflow_dispatch: # Ruční spouštění
 
 jobs:
   cypress-tests:
@@ -12,3 +11,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Cypress run
         uses: cypress-io/github-action@v6
+        with: # Nastavení filtrování testů s tagem: @smoke
+          env: grepTags=@smoke

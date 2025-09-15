@@ -18,6 +18,7 @@
   "homepage": "https://github.com/tredgate/cypress_academy_actions_summer_25#readme",
   "description": "",
   "dependencies": {
+    "@cypress/grep": "^4.1.1",
     "cypress": "^15.2.0"
   }
 }
