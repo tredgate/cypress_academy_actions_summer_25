@@ -1,0 +1,23 @@
+{
+  "name": "cypress_academy_actions_summer_25",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tredgate/cypress_academy_actions_summer_25.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tredgate/cypress_academy_actions_summer_25/issues"
+  },
+  "homepage": "https://github.com/tredgate/cypress_academy_actions_summer_25#readme",
+  "description": "",
+  "dependencies": {
+    "cypress": "^15.2.0"
+  }
+}
