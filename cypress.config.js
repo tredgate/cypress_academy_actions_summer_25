@@ -4,7 +4,7 @@ module.exports = defineConfig({
   // ? env nastavený na použití @cypress/grep, aby filtroval testy (nespouštěl ostatní )
   env: {
     grepFilterSpecs: true,
-    // grepOmitFiltered: true,
+    grepOmitFiltered: true,
   },
   e2e: {
     setupNodeEvents(on, config) {
